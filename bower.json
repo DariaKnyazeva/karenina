@@ -1,0 +1,6 @@
+{
+  "name": "viewsite",
+  "dependencies": {
+    "foundation": "zurb/bower-foundation"
+  }
+}

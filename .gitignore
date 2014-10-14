@@ -1,0 +1,8 @@
+*.pyc
+.tox/
+.vagrant/
+deploy/static/
+deploy/media/
+django_viewsite.egg-info/
+node_modules/
+bower_components/
