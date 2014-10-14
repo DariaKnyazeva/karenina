@@ -18,17 +18,17 @@ Content
 
 
 Quick start
-===========
+--------------
 
 Prerequisites:
---------------
+===========
 
 * `Vagrant <https://docs.vagrantup.com/v2/installation/>`_
 * `Docker <https://docs.docker.com/installation/#installation>`_
 
 
 Setup
------
+===========
 
 
 .. code-block:: bash
@@ -45,10 +45,16 @@ Setup
 
 
 Few more commands
------------------
+=================
 
 .. code-block:: bash
 
     vagrant$ grunt               # build and watch
     vagrant$ tox -e test         # run tests
     vagrant$ tox -e prod shell   # run shell with production env and settings
+
+
+License
+=======
+
+Public Domain. (No copyright, no rights, no license, do whatever you need)

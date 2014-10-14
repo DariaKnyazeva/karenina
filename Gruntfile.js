@@ -20,7 +20,7 @@ module.exports = function(grunt) {
       grunt: { files: ['Gruntfile.js'] },
 
       sass: {
-        files: 'viewsite/scss/**/*.scss',
+        files: 'scss/**/*.scss',
         tasks: ['sass']
       }
     }

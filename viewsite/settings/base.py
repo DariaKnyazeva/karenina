@@ -1,5 +1,5 @@
 import os
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(__file__)))
 
 
 # Applications
@@ -34,7 +34,7 @@ ALLOWED_HOSTS = []
 # Templates
 
 TEMPLATE_DIRS = (
-    os.path.join(BASE_DIR, 'tests/templates'),
+    os.path.join(BASE_DIR, 'templates'),
 )
 
 from django.conf.global_settings import TEMPLATE_CONTEXT_PROCESSORS
@@ -66,7 +66,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'tests/static'),
+    os.path.join(BASE_DIR, 'static'),
 )
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'deploy/static')

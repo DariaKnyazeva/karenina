@@ -1,0 +1,40 @@
+$primary-color: #327c8a;
+
+$topbar-bg-color: #327c8a;
+$topbar-height: 40px;
+
+
+// Background color for the top bar
+$topbar-bg-color: $topbar-bg-color;
+$topbar-bg: $topbar-bg-color;
+
+// Height and margin
+$topbar-height: 40px;
+$topbar-margin-bottom: 0;
+
+// Style the top bar dropdown elements
+$topbar-dropdown-bg: $topbar-bg-color;
+$topbar-dropdown-link-color: #fff;
+$topbar-dropdown-link-bg: $topbar-bg-color;
+$topbar-dropdown-toggle-size: 5px;
+$topbar-dropdown-toggle-color: #fff;
+$topbar-dropdown-toggle-alpha: 0.4;
+
+// Set the link colors and styles for top-level nav
+$topbar-link-color: #fff;
+$topbar-link-color-hover: #fff;
+$topbar-link-color-active: #000;
+$topbar-link-color-active-hover: #000;
+$topbar-link-hover-lightness: -10%; // Darken by 10%
+$topbar-link-bg: $topbar-bg;
+$topbar-link-bg-color-hover: #fff;
+$topbar-link-bg-hover: scale-color($topbar-bg-color, $lightness: +14%);
+$topbar-link-bg-active: #fff;
+$topbar-link-bg-active-hover: $topbar-link-bg-active;
+
+.top-bar-section li.active {
+    padding-bottom:0.5rem;
+    box-shadow: 3px 3px 5px rgba(100, 100, 100, 0.75);
+    background-color: #fff;
+    border-bottom: 5px solid #327c8a;
+}
