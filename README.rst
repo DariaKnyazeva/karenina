@@ -8,6 +8,8 @@ Cookie cutter template for happy internal tools and business app development wit
 Content
 -------
 
+*All happy teams resemble one another, but each unhappy teams is unhappy in its own way.*
+
 * Django 1.7
 * PostgreSQL
 * Foundation CSS Framework
@@ -17,8 +19,6 @@ Content
 
 Quick start
 ===========
-
-*All happy teams resemble one another, but each unhappy teams is unhappy in its own way.*
 
 Prerequisites:
 --------------
@@ -38,5 +38,16 @@ Setup
 
     vagrant$ npm install 
     vagrant$ bower install
-    vagrant$ tox -e dev runserver
+    vagrant$ grunt build
+    vagrant$ tox migrate 
+    vagrant$ tox  # default: runserver 0.0.0.0:8000 (host access from http://localhost:9000)
 
+
+Few more commands
+-----------------
+
+.. code-block:: bash
+
+    vagrant$ grunt               # build and watch
+    vagrant$ tox -e test         # run tests
+    vagrant$ tox -e prod shell   # run shell with production env and settings

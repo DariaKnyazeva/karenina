@@ -11,7 +11,7 @@ module.exports = function(grunt) {
           outputStyle: 'compressed'
         },
         files: {
-          'viewsite/static/css/viewsite.css': 'viewsite/scss/viewsite.scss'
+          'static/css/viewsite.css': 'scss/viewsite.scss'
         }
       }
     },
