@@ -30,8 +30,12 @@ Prerequisites:
 Setup
 -----
 
-    $ vargrant up --debug
-    $ vargant ssh
+
+.. code-block:: bash
+
+    host$ vagrant up --debug
+    host$ vagrant ssh
+
     vagrant$ npm install 
     vagrant$ bower install
     vagrant$ tox -e dev runserver
