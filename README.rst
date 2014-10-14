@@ -40,7 +40,8 @@ Setup
     vagrant$ bower install
     vagrant$ grunt build
     vagrant$ tox migrate 
-    vagrant$ tox  # default: runserver 0.0.0.0:8000 (host access from http://localhost:9000)
+    vagrant$ tox  # default: runserver 0.0.0.0:8000 
+                  # (host access from http://localhost:9000)
 
 
 Few more commands
