@@ -2,13 +2,16 @@
 Karenina
 ========
 
-Cookie cutter template for happy internal tools and business app development with django.
+*All happy teams resemble one another, but each unhappy teams is unhappy in its own way.*
+
+.. image:: static/img//screen.png
+   :width: 400px
 
 
 Content
 -------
 
-*All happy teams resemble one another, but each unhappy teams is unhappy in its own way.*
+Cookie cutter template for happy internal tools and business app development with django.
 
 * Django 1.7
 * PostgreSQL
@@ -49,9 +52,9 @@ Few more commands
 
 .. code-block:: bash
 
-    vagrant$ grunt serve         # build, watch for css changes, and run django dev server
-    vagrant$ tox -e test         # run tests
-    vagrant$ tox -e prod shell   # run shell with production env and settings
+    vagrant$ grunt serve       # build, watch for css changes, and run django dev server
+    vagrant$ tox -e test       # run tests
+    vagrant$ tox -e prod shell # run shell with production env and settings
 
 
 License
