@@ -30,6 +30,10 @@ body {
     width:280px;
 }
 
+.wrapper>sidebar>section>h2 {
+    padding-bottom: 0.5em;
+}
+
 .wrapper>sidebar>section>ul {
     padding-left:0;
 }
@@ -54,9 +58,7 @@ body {
 .content>section>.mainContent {
     flex:1;
     min-height: 100%;
-    background-color:green;
 }
 .content>section>aside {
     width: 260px;
-    background-color:red;
 }

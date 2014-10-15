@@ -49,7 +49,7 @@ Few more commands
 
 .. code-block:: bash
 
-    vagrant$ grunt               # build and watch
+    vagrant$ grunt serve         # build, watch for css changes, and run django dev server
     vagrant$ tox -e test         # run tests
     vagrant$ tox -e prod shell   # run shell with production env and settings
 

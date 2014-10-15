@@ -23,12 +23,23 @@ module.exports = function(grunt) {
         files: 'scss/**/*.scss',
         tasks: ['sass']
       }
+    },
+
+    bgShell: {
+      _defaults: {
+        bg: true
+      },
+      runDjango: {
+        cmd: 'tox -e dev -- runserver 0.0.0.0:8000'
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-bg-shell');
 
   grunt.registerTask('build', ['sass']);
+  grunt.registerTask('serve', ['bgShell:runDjango', 'build', 'watch']);
   grunt.registerTask('default', ['build','watch']);
 }
