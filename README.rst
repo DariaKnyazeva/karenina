@@ -2,7 +2,7 @@
 Karenina
 ========
 
-*All happy teams resemble one another, but each unhappy teams is unhappy in its own way.*
+*All happy teams resemble one another, but each unhappy team is unhappy in its own way.*
 
 .. image:: static/img//screen.png
    :width: 400px
